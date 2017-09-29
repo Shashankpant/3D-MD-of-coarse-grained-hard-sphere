@@ -1,0 +1,14 @@
+MOLECULAR DYNAMICS OF LENNARD JONES FLUID
+500000                     ! NSTEP
+400                           ! IPRINT
+0.35     0.35         !DENSITY, TEMPERATURE IN REDUCED UNITS
+3.5                      ! RCUT
+0.01     1.0            ! DT (TIME STEP),  MASS
+0.5                     ! MOLEFRACTION OF 1st PCL
+1.0      1.0           !EPS11 AND SIG11
+1.0      1.0          !EPS22 AND SIG22
+1        100000            !ISCALE,ISTOP
+1	 0            !ISCALESTART,NREADOPT
+0.01                   ! DELR
+100                       ! NSKIP (DATA SKIP FOR GR CALCULATION)
+0                       !iavstart: AFTER (ISTOP+IAVSTART) STEPS AVERAGING STARTS
